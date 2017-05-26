@@ -1,4 +1,4 @@
-[
+let data = [
 	{
 		"country" : "Afghanistan",
 		"visited" : ""
@@ -37,7 +37,7 @@
 	},
 	{
 		"country" : "Austria",
-		"visited" : "boy"
+		"visited" : "both"
 	},
 	{
 		"country" : "Azerbaijan",
@@ -145,7 +145,7 @@
 	},
 	{
 		"country" : "Colombia",
-		"visited" : "girl"
+		"visited" : ""
 	},
 	{
 		"country" : "Comoros",
@@ -165,7 +165,7 @@
 	},
 	{
 		"country" : "Croatia",
-		"visited" : "boy"
+		"visited" : "both"
 	},
 	{
 		"country" : "Cuba",
@@ -237,7 +237,7 @@
 	},
 	{
 		"country" : "France",
-		"visited" : "boy"
+		"visited" : "both"
 	},
 	{
 		"country" : "Gabon",
@@ -317,7 +317,7 @@
 	},
 	{
 		"country" : "Ireland",
-		"visited" : ""
+		"visited" : "girl"
 	},
 	{
 		"country" : "Israel",
@@ -325,7 +325,7 @@
 	},
 	{
 		"country" : "Italy",
-		"visited" : "boy"
+		"visited" : "both"
 	},
 	{
 		"country" : "Ivory Coast",
@@ -629,7 +629,7 @@
 	},
 	{
 		"country" : "Slovakia",
-		"visited" : ""
+		"visited" : "girl"
 	},
 	{
 		"country" : "Slovenia",
@@ -677,7 +677,7 @@
 	},
 	{
 		"country" : "Switzerland",
-		"visited" : "boy"
+		"visited" : "both"
 	},
 	{
 		"country" : "Syria",
