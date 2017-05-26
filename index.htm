@@ -12,6 +12,33 @@ window.onload= function(){
 	changeFill(boy,"boy");
 	changeFill(girl,"girl");
 
+	stat("Both ("+both.length+")");
+	stat("Boy ("+boy.length+")");
+	stat("Girl ("+girl.length+")");
+
+	list(both,"Both");
+	list(boy,"Boy");
+	list(girl,"Girl");
+
+}
+
+function list(l,s){
+	let ul = document.getElementById("ul_"+s);
+	for(let i = 0 ; i < l.length ; i++){
+		let li = document.createElement("li");	
+		li.innerHTML=l[i].country;
+		ul.appendChild(li);
+	}
+}
+
+function stat(s){
+	let stat = document.getElementById("stat");
+	let li = document.createElement("li");
+	let ul = document.createElement("ul");
+	li.innerHTML=s;
+	li.appendChild(ul);
+	ul.setAttribute("id","ul_"+s.split(" ")[0])
+	stat.appendChild(li);
 }
 function changeFill(arr,style){
 	for(let i = 0 ; i < arr.length;i++){
@@ -7926,6 +7953,9 @@ function changeFill(arr,style){
      transform="translate(-29.94725,60.9866)" />
 </svg>
 <br/>
+<ul id="stat">
+
+</ul>
 <ul>
 	<li>SVG map taken from <a href="https://upload.wikimedia.org/wikipedia/commons/4/42/BlankMap-FlatWorld6.svg">wikipedia</a>.</li>
 	<li>ISO-3166-2 data taken from <a href="https://github.com/olahol/iso-3166-2.json">this</a> github repository (altough changes a bit).</li>
