@@ -633,7 +633,7 @@ let data = [
 	},
 	{
 		"country" : "Slovenia",
-		"visited" : ""
+		"visited" : "boy"
 	},
 	{
 		"country" : "Solomon Islands",
